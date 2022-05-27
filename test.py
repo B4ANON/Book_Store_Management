@@ -6,6 +6,7 @@ from bookstoremanagement.models import Book
 
 class UserTestCase(TestCase):
     def test_user(self):
-        if len(Book.objects.all())>0:
-            print(len(Book.objects.all()))
+        booklist = Book.objects.filter(book_title="Python for Everybody")
+        if booklist.book_title+1==0:    
+            print("success")
         return True
