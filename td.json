@@ -5,8 +5,8 @@
     "networkMode": "host",
     "containerDefinitions": [
         {
-            "name": "",
-            "image": "",
+            "name": "test8container",
+            "image": "656431822661.dkr.ecr.ap-south-1.amazonaws.com/docker_aws",
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
